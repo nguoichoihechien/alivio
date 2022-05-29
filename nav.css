@@ -1,0 +1,439 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.2  ;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+
+:root{
+  --green:  #01996D;
+  --back:   #292929;
+  --light_black: #484848;
+  --light_black-1: #424242;
+  --white: #fff;
+  --Tiro:  'Tiro Bangla', serif;
+  --max_width: 1920px;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.all{
+  /* max-width: 1420px;
+  width: 100%; */
+  background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_bar{
+  max-width: 1420px;
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+
+
+
+.logo a {
+  color: var(--green);
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.nav_bar_menu ul {
+  display: flex;
+  gap: 72px;
+}
+
+.nav_bar_menu ul li a{
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--back);
+}
+
+.nav_bar_btn{
+  gap: 35px;
+}
+
+.nav_bar_btn a{
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.nav_bar_btn button{
+  padding: 14px 51px;
+  font-weight: 400;
+    font-size: 20px;
+  border-radius: 4px;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+}
+
+.header img{
+  width: 100%;
+  padding-bottom: 85px;
+}
+
+.header{
+  position: relative;
+}
+
+.header img{
+  width: 100%;
+}
+
+.header_text{
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+.header_text h1{
+  font-weight: 700;
+  font-size: 50px;
+  width: 420px;
+  color: var(--green);
+  font-family: 'Tiro Bangla', serif;
+}
+.header_text p{
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 320px;
+  width: 100%;
+  width: 100%;
+  color: var(--light_black);
+  margin-top: 30px;
+}
+
+.header_text button{
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius: 4px;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  margin-top: 38px;
+}
+
+.tile p{
+  font-weight: 600;
+  font-size: 24px;
+  color: #424242;
+}
+.tile h2{
+  font-family: 'Tiro Bangla', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--green); 
+  max-width: 548px;
+  width: 100%;
+}
+.work_head p{
+  max-width: 665px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #424242;
+}
+
+.work_head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:136px;
+  margin-top: 81px;
+}
+
+.work_list {
+  position: relative;
+}
+
+.work_list h1{
+  font-weight: 400;
+  font-size: 150px;
+  font-family: var(--Tiro);
+  color: rgba(1, 153, 109, 0.2);
+  
+}
+.work_list h2{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: var(--Tiro);
+  color: var(--light_black-1);
+  position: absolute;
+  top:13%;
+  left: 21%;
+}
+.work_list p{
+  max-width: 382px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--light_black-1);
+  margin-bottom: 60px;
+}
+
+.work_card{
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+  gap:103px;
+  margin-bottom: 252px;
+}
+
+.work_list:nth-child(2)
+{
+  transform: translateY(27%);
+}
+
+.work_list:nth-child(3)
+{
+  transform: translateY(9%);
+}
+
+.frimary_video{
+  position: relative;
+  max-width: 896px;
+  width: 100%;
+  
+}
+.frimary_video svg{
+  position: absolute;
+  left: 46%;
+  top: 43%;
+}
+
+.frimary_text{
+  max-width: 580px;
+  width: 100%;
+}
+
+.frimary_text h1{
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--white);
+  font-family: var(--Tiro);
+}
+
+.frimary_text h2{
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--white);
+  margin-top: 33px;
+}
+
+.frimary_text button{
+  padding: 20px 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--white);
+  background-color: var(--green);
+  border: none;
+  border-radius: 4px;
+  margin-top: 57px;
+}
+
+
+.btn_frimary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31;
+  background: #245852;
+ height: 922px;
+}
+
+.img_mini{
+  max-width: 298px;
+  max-height: 295px;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  position: absolute;
+  top: 70%;
+  right: 65%;
+}
+.img_mini h1{
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 22px;
+  color: #000000;
+}
+.img_mini p{
+  border: 0.745942px solid #000000;
+  max-width: 110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+.img_mini img{
+  border-radius: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+.img_mini h2{
+  font-weight: 400;
+  font-size: 11px;
+  color: #000000;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.img_mini h3{
+  font-weight: 700;
+  font-size: 16px;
+  font-family: var(--Tiro);
+  color: #000000;
+  margin-left: 60px;
+}
+.img_mini ul li{
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+  margin-left: 60px;
+  list-style: inside;
+}
+.img_mini ul {
+  padding-bottom: 30px;
+}
+
+.btn_img{
+  position: relative;
+  max-width: 638px;
+  width: 100%;
+  max-height: 573px;
+  height: 100%;
+  background: rgba(1, 153, 109, 0.2);
+  border-radius: 18.1125px;
+}
+
+.btn_img img{
+  margin-left: 95px;
+  
+}
+
+
+.btn_text h3{
+  font-weight: 600;
+  font-size: 25px;
+  color:  var(--light_black-1);
+}
+
+.btn_text h1{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--green);
+  font-family: var(--Tiro);
+  max-width: 580px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn_text p{
+  font-weight: 400;font-size: 20px;
+  color:  var(--light_black);
+  max-width: 530px;
+  width: 100%;
+}
+
+.btn_text button{
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px 50px;
+  color:  var(--white);
+  background-color: var(--green);
+  border-radius: 4px;
+  border: none;
+}
+
+.product_btn{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 86px;
+}
+
+.end{
+  background: #245852;
+  margin-top: 243px;
+}
+
+.end ul{
+  
+  margin-left: 275px;
+  padding-bottom: 144px;
+}
+
+.end ul li{
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--white);
+  margin-top: 60px;
+}
+.logo_text{
+  padding-top: 95px;
+  margin-left: 275px;
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--white);
+}
