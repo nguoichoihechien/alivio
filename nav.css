@@ -102,15 +102,12 @@ body{
   color: var(--back);
 }
 
-.nav_bar_btn{
-  gap: 35px;
-}
 
 .nav_bar_btn a{
   color: #000000;
   font-weight: 400;
   font-size: 20px;
-
+  margin-left: 35px;
 }
 
 .nav_bar_btn button{
